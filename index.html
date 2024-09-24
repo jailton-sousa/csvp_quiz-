@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta property="og:image" content="quizweb.png">
+    <meta property="og:image:type" content="quizweb.png">
+    <meta property="og:image:width" content="403">
+    <meta property="og:image:height" content="237">
+    <link rel="stylesheet" href="C:\Users\jailton.sousa.CSVP\OneDrive - PBCM - Colégio São Vicente de Paulo\Imagens\quiz\style.css">
+    <script src="https://kit.fontawesome.com/95442199ab.js" crossorigin="anonymous"></script>
+   <!-- seta, símbolo do botão de início --> 
+   <script src="https://kit.fontawesome.com/95442199ab.js" crossorigin="anonymous"></script>
+    <title>CSVP Quiz</title>
+</head>
+
+    <body>
+<nav>
+    <h1 class="mark">Quiz_CSVP</h1>
+    <span><a href="https://csvp.g12.br/home/" target="_blank">Colégio São Vicente de Paulo</a></span>
+</nav>
+
+<div class="finishon" id="playername">
+    <h3>Bem vindo ao <br> <span id="nameweb">Quiz do CSVP!&#128512</span></h3>
+     <div class="roww">
+     <input id="playernameinput" placeholder="Seu nome é" autocomplete="off">
+     <button class="jogardenovo" id="começar"><i class="fa-solid fa-arrow-right"></i></button>
+     <br>
+     <br>
+    </div>
+    <br>
+</div>  
+
+
+<div class="finishoff" id="finish">
+  <p>Parabéns <span id="name"></span>, Quiz finalizado!</p>
+   
+  <p class="pa">Perguntas acertadas</p>
+
+  <p id="pts"></p>
+
+  <p class="pts">Nivel de Desempenho:</p>
+  <p id="nivel"></p>
+  <button class="jogardenovo" id="voltarinicio">Voltar ao inicio <i class="fa-solid fa-house"></i></button>
+  <button class="jogardenovo" id="jogardenovo">Jogar novamente <i class="fa-solid fa-arrow-rotate-left"></i></button>
+</div>
+    
+<div class="barbox">
+    <span class="porcentagem" id="porcentagem"></span>
+</div>
+<div class="bardiv" id="bardiv">
+ <div class="bar" id="bar">
+ </div>
+</div>
+
+<div class="boxquizes">
+
+<h1 id="titulo"></h1>
+
+<div class="quadrodequizes" id="quadrodequizes">
+
+<div class="quizes">
+<img class="quizesimage" src="C:\Users\jailton.sousa.CSVP\OneDrive - PBCM - Colégio São Vicente de Paulo\Imagens\quiz\sobre_o_csvp.png" alt="Quiz sobre O CSVP">
+<div><p class="titulo">Sobre o CSVP</p>
+    <p class="description">E ai, conhece nossa História, vamos testar o seu conhecimento?</p>
+    <span class="status"></span>
+    <button class="selectquiz" id="sobreocsvpbutton">Clique Aqui para Iniciar</button>
+    <input type="checkbox" id="sobreocsvpcheckbox">
+</div>
+
+</div>
+<div class="quizes">
+    <img class="quizesimage" src="C:\Users\jailton.sousa.CSVP\OneDrive - PBCM - Colégio São Vicente de Paulo\Imagens\quiz\portugues.jpg" alt="Quiz sobre Portuguê">
+    <div>
+        <p class="titulo">Português</p>
+        <p class="description">Vamos ver os seus conhecimentos sobre português?</p>
+        <span class="status"></span>
+    <button class="selectquiz" id="medicine">Clique Aqui para Iniciar</button>
+     <input type="checkbox" id="medicinecheckbox">
+    </div>
+</div>
+<div class="quizes">
+    <img class="quizesimage" src="C:\Users\jailton.sousa.CSVP\OneDrive - PBCM - Colégio São Vicente de Paulo\Imagens\quiz\conhecimentos.jpg" alt="Quiz sobre Conhecimentos Gerais">
+    <div>
+        <p class="titulo">Conhecimentos gerais</p>
+    <p class="description">Vamos participar deste desafio?</p>
+        <span class="status"></span>
+    <button class="selectquiz" id="conhecimento">Clique Aqui para Iniciar</button>
+    <input type="checkbox" id="conhecimentocheckbox">
+    </div>
+    
+</div>
+<div class="quizes">
+    <img class="quizesimage" src="C:\Users\jailton.sousa.CSVP\OneDrive - PBCM - Colégio São Vicente de Paulo\Imagens\quiz\matematica.jpg" alt="Quiz Matemática">
+    <div>
+        <p class="titulo">Matemática</p>
+    <p class="description">Se você é bom em exatas, vamos testar nesse desafio?</p>
+        <span class="status"></span>
+    <button class="selectquiz" id="matematicabutton">Clique Aqui para Iniciar</button>
+    <input type="checkbox" id="matematicacheckbox">
+    </div>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="quadrodeperguntas" id="quadrodeperguntas">
+
+    <div class="npergunta" id="nperguntadiv">
+        <span id="npergunta"></span>
+        </div>
+
+<div id="pergunta">
+
+</div>
+
+<button class="resposta" id="resposta1" name="res" type="submit"></button>
+<button class="resposta" id="resposta2" name="res" type="submit"></button>
+<button class="resposta" id="resposta3" name="res" type="submit"></button>
+<button class="resposta" id="resposta4" name="res" type="submit"></button>
+
+</div>
+
+<footer>
+</footer>
+      
+<script src="C:\Users\jailton.sousa.CSVP\OneDrive - PBCM - Colégio São Vicente de Paulo\Imagens\quiz\scripts.js"></script>
+
+</body>
